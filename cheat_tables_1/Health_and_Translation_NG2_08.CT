@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"Grp1 - Character Translation"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"x_pos_01"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>185660000</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"y_pos_01"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>185660004</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>68</ID>
+          <Description>"z_pos_01"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>185660008</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"y_pos_02"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>195660004</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>84</ID>
+          <Description>"misc 3x3 rotation matrix 01"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>96</ByteLength>
+          <Address>18565CF30</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"Grp2 - Character Health"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>87</ID>
+          <Description>"Value A"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>185660E20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88</ID>
+          <Description>"Value B"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>195660E0C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>89</ID>
+          <Description>"Value C"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>195660E20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86</ID>
+          <Description>"Value D"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>185660E0C</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
